@@ -14,7 +14,7 @@ double len = Math.Floor(Math.Log10(number) + 1);
 int modul_arg = 10;
 int del_arg = 10;
 if(len < 3){
-    Console.WriteLine("Это двухзначное число!");
+    Console.WriteLine("Третьей цифры нет!");
     return;
 }
 if(len == 3)
